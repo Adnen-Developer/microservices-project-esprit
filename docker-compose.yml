@@ -17,7 +17,7 @@ services:
   keycloak:
     container_name: keycloak
     image: quay.io/keycloak/keycloak:18.0.0
-    command: ["start-dev", "--import-realm"]
+    command: [ "start-dev", "--import-realm" ]
     environment:
       DB_VENDOR: MYSQL
       DB_ADDR: keycloak-mysql  # Using the service name of the MySQL container for DNS resolution
@@ -32,3 +32,40 @@ services:
       - ./realms/:/opt/keycloak/data/import/
     depends_on:
       - keycloak-mysql
+
+  esprit-database:
+    image: mysql:8
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: root
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql/esprit-data2:/var/lib/mysql
+
+  kafka:
+    image: docker.io/bitnami/kafka:3.6
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    volumes:
+      - "kafka_data:/bitnami"
+    environment:
+      # KRaft settings
+      - KAFKA_CFG_NODE_ID=0
+      - KAFKA_CFG_PROCESS_ROLES=controller,broker
+      - KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
+      # Listeners
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093
+      - KAFKA_CFG_ADVERTISED_LISTENERS=plaintext://localhost:9092
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      - KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
+      - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=PLAINTEXT
+
+volumes:
+  kafka_data:
+    driver: local
