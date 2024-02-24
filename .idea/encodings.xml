@@ -10,18 +10,16 @@
     <file url="file://$PROJECT_DIR$/conge-evaluator-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/conge-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/department-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/department-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doctor-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/employee-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/employee-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/etudiant-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/evenement-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/faculty-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/notification-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/organization-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/organization-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/project-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-registry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shared-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

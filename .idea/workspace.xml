@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ad85709-f36a-408c-97e6-86cd63e5ca50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/microservices-project-esprit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-02-23T153426.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-02-23T153524.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-02-23T153526.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-02-23T153844.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-02-23T153905.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-02-23T153942.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-02-23T153953.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springboot-microservices.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/net/javaguides/apigateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/net/javaguides/apigateway/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/DoctorServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/dto/APIResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/dto/AppointmentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/dto/CabinetDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/dto/DoctorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/entity/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/mapper/DoctorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/repository/DoctorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/service/APIClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/service/DoctorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/microservice/esprit/tn/doctorservice/service/impl/DoctorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/test/java/microservice/esprit/tn/doctorservice/DoctorServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/EtudiantServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/controller/EtudiantController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/dto/APIResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/dto/ClasseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/dto/EtudiantDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/dto/EvenementDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/entity/Etudiant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/mapper/EtudiantMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/repository/EtudiantRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/service/APIClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/service/EtudiantService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/java/microservice/esprit/tn/etudiantservice/service/Impl/EtudiantServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-service/src/test/java/microservice/esprit/tn/etudiantservice/EtudiantServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2couE94ecSbHZmy2HNNvDSyLlCp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JAR Application.zipkin-server-2.23.19-exec.jar.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.AppointmentServiceApplication.executor": "Run",
+    "Spring Boot.CabinetServiceApplication.executor": "Run",
+    "Spring Boot.ClasseServiceApplication.executor": "Run",
+    "Spring Boot.ClubServiceApplication.executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.CongeEvaluatorServiceApplication.executor": "Run",
+    "Spring Boot.CongeServiceApplication.executor": "Run",
+    "Spring Boot.DepartmentServiceApplication.executor": "Run",
+    "Spring Boot.DoctorServiceApplication.executor": "Run",
+    "Spring Boot.EmployeeServiceApplication.executor": "Run",
+    "Spring Boot.EtudiantServiceApplication.executor": "Run",
+    "Spring Boot.EvenementServiceApplication.executor": "Run",
+    "Spring Boot.FacultyServiceApplication.executor": "Run",
+    "Spring Boot.NotitificationServiceApplication.executor": "Run",
+    "Spring Boot.OrganizationServiceApplication.executor": "Run",
+    "Spring Boot.ProjectServiceApplication.executor": "Run",
+    "Spring Boot.ServiceRegistryApplication.executor": "Run",
+    "Spring Boot.StudentServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceRegistryApplication">
+    <configuration name="zipkin-server-2.23.19-exec.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/zipkin-server-2.23.19-exec.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="appointment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservice.esprit.tn.appointmentservice.AppointmentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CabinetServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cabinet-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservice.esprit.tn.cabinetservice.CabinetServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClasseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="classe-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservice.esprit.tn.classeservice.ClasseServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClubServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="club-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.clubservice.ClubServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CongeEvaluatorServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="conge-evaluator-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.CongeEvaluatorServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CongeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="conge-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.CongeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="department-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.departmentservice.DepartmentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoctorServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="doctor-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.doctorservice.DoctorServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="employee-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.employeeservice.EmployeeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtudiantServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="etudiant-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.etudiantservice.EtudiantServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenementServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="evenement-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservice.esprit.tn.evenementservice.EvenementServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacultyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="faculty-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.facultyservice.FacultyServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotitificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.NotitificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrganizationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="organization-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.OrganizationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.ProjectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.serviceregistry.ServiceRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="student-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.studentservice.StudentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.zipkin-server-2.23.19-exec.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ad85709-f36a-408c-97e6-86cd63e5ca50" name="Changes" comment="" />
+      <created>1708790139528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708790139528</updated>
+      <workItem from="1708790141431" duration="7895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

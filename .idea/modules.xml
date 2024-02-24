@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/reclamation-service/reclamation-service.iml" filepath="$PROJECT_DIR$/reclamation-service/reclamation-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-microservices.iml" filepath="$PROJECT_DIR$/.idea/springboot-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices-project-esprit.iml" filepath="$PROJECT_DIR$/.idea/microservices-project-esprit.iml" />
     </modules>
   </component>
 </project>

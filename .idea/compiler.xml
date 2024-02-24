@@ -13,12 +13,8 @@
         <module name="evenement-service" />
         <module name="shared-module" />
         <module name="faculty-service" />
-        <module name="employee-service (2)" />
         <module name="notification-service" />
-        <module name="employee-service (1)" />
-        <module name="organization-service (2)" />
         <module name="employee-service" />
-        <module name="organization-service (1)" />
         <module name="config-server" />
         <module name="conge-service" />
         <module name="club-service" />
@@ -26,6 +22,7 @@
         <module name="doctor-service" />
         <module name="api-gateway" />
         <module name="classe-service" />
+        <module name="student-service" />
         <module name="organization-service" />
         <module name="conge-evaluator-service" />
         <module name="project-service" />
@@ -46,18 +43,15 @@
       <module name="department-service" options="-parameters" />
       <module name="doctor-service" options="-parameters" />
       <module name="employee-service" options="-parameters" />
-      <module name="employee-service (1)" options="-parameters" />
-      <module name="employee-service (2)" options="-parameters" />
       <module name="etudiant-service" options="-parameters" />
       <module name="evenement-service" options="-parameters" />
       <module name="faculty-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="organization-service" options="-parameters" />
-      <module name="organization-service (1)" options="-parameters" />
-      <module name="organization-service (2)" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
       <module name="shared-module" options="-parameters" />
+      <module name="student-service" options="-parameters" />
     </option>
   </component>
 </project>
