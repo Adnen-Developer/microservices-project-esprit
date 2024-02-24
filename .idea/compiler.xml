@@ -7,30 +7,54 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cabinet-service" />
+        <module name="appointment-service" />
+        <module name="department-service" />
+        <module name="evenement-service" />
+        <module name="shared-module" />
+        <module name="faculty-service" />
+        <module name="employee-service (2)" />
+        <module name="notification-service" />
+        <module name="employee-service (1)" />
+        <module name="organization-service (2)" />
+        <module name="employee-service" />
+        <module name="organization-service (1)" />
         <module name="config-server" />
         <module name="conge-service" />
-        <module name="department-service" />
+        <module name="club-service" />
+        <module name="etudiant-service" />
+        <module name="doctor-service" />
         <module name="api-gateway" />
-        <module name="shared-module" />
+        <module name="classe-service" />
         <module name="organization-service" />
         <module name="conge-evaluator-service" />
         <module name="project-service" />
         <module name="service-registry" />
-        <module name="notification-service" />
-        <module name="employee-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
+      <module name="appointment-service" options="-parameters" />
+      <module name="cabinet-service" options="-parameters" />
+      <module name="classe-service" options="-parameters" />
+      <module name="club-service" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="conge-evaluator-service" options="-parameters" />
       <module name="conge-service" options="-parameters" />
       <module name="department-service" options="-parameters" />
+      <module name="doctor-service" options="-parameters" />
       <module name="employee-service" options="-parameters" />
+      <module name="employee-service (1)" options="-parameters" />
+      <module name="employee-service (2)" options="-parameters" />
+      <module name="etudiant-service" options="-parameters" />
+      <module name="evenement-service" options="-parameters" />
+      <module name="faculty-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="organization-service" options="-parameters" />
+      <module name="organization-service (1)" options="-parameters" />
+      <module name="organization-service (2)" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
       <module name="shared-module" options="-parameters" />
