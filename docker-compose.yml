@@ -43,7 +43,7 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: true
       MYSQL_ROOT_HOST: '%'
     ports:
-      - "3306:3306"
+      - "3806:3306"
     volumes:
       - /var/lib/mysql/esprit-data2:/var/lib/mysql
 

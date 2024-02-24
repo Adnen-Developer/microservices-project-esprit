@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
+        <module name="conge-service" />
         <module name="department-service" />
         <module name="api-gateway" />
         <module name="shared-module" />
         <module name="organization-service" />
+        <module name="conge-evaluator-service" />
         <module name="project-service" />
         <module name="service-registry" />
         <module name="notification-service" />
@@ -23,6 +25,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="conge-evaluator-service" options="-parameters" />
+      <module name="conge-service" options="-parameters" />
       <module name="department-service" options="-parameters" />
       <module name="employee-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
